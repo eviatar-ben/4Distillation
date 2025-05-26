@@ -1,0 +1,15 @@
+1.  CANCELLED-TOTALLY_WRONG
+    To make the Mappers learn the "clip Encoder outputs Embeddings" only (what now is called bypass )
+    and not the "clip Encoder inputs Embeddings" : Since in view_neti they learned the "clip Encoder inputs Embeddings"
+    to achive cross attension (which occurs inside the clip Encoder).
+
+2.  To check the SD Unet layers thats are learned (maybe they are fits specifically to SD 2.1).
+
+3. Adding Positional Encoding to the IPAdapters Images.
+
+4. Changing the time token <t> to relative time  to the IPAdapter images
+
+5. Change The Randomness in the IPAdapter images sample
+
+6. To drop the IPAdapter images in some iteration
+

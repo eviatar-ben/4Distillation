@@ -1,0 +1,57 @@
+0. fix distortion
+
+1.  Ive usef time0, time1,.. timeN; super class = time
+    but frame0, frame1,.. frameN; super class = frame might be a good idea.
+
+2.  do_positional_encoding() and _set_positional_encoding() in neti_mapper.py is not implemented.
+
+3. watsthath: _init_trackers() in coach.py
+
+4.  whats the validators' job?
+
+5. Anything that related to the positional encoding should be revisit meticulously
+
+6. should i change the witdh and size (specifically in validate.py)
+
+7. !!normalize between the data boundries vs between the validation data boundries!!
+
+8. Images at the loss stage (after vae()) and gernerated Images at the inference
+
+9. Input_ids_placeholder_time = get_input_ids_placeholder(ids, self.placeholder_time_token_ids) - should be checkd
+
+10. whats that For computing metrics, we use masks from RegNeRF, which can be downloaded here. (README)
+
+11. The multiple problem might be occur due to the change in the size
+
+12. The contetn is better in view _neti (maybe bacuse its easier to learn using multiple pov then to learn using multiple timestps?? (doesnt sounds right
+
+13. whats the deal with the mask things?
+
+13. whats the deal with the Prompt manager?
+
+
+14. Double check the condition format, e.g, <frame_021> vs <frame_21>
+
+
+15. whats the Loss
+16. Permutation invariant
+
+17. original_ti_init_embed is sets to "time" but is not compitable with <frame_021>  placeholder
+
+load_learned_embed_in_clip load 6 time tokens but there was 9 during training
+
+
+['<frame_022>', '<frame_025>', '<frame_028>', '<frame_040>', '<frame_044>', '<frame_048>']
+
+[49408, 49409, 49410, 49411, 49412, 49413, 49414, 49415, 49416, 49417, 49418, 49419, 49420, 49421, 49422, 49423, 49424, 49425, 49426, 49427, 49428, 49429, 49430, 49431, 49432, 49433, 49434, 49435, 49436, 49437, 49438, 49439, 49440, 49441]
+
+
+
+-------bugs prone-------
+
+1.clean_config_dict() in checkpoint_handler.py
+2. check if in mode0 object token id is indeed 49414
+
+3. joseph comment -  normelize
+
+4. maybe there is incompatible between the models i load
