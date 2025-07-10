@@ -31,8 +31,10 @@ The overview in the figure focuses on the temporal dimension, but the viewpoint 
 Following the NeTI approach, to maintain the editability–fidelity trade-off and to constrain **v_bypass** from becoming too dominant, the textual condition **v\*** is calculated as:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f0c41b23-c359-4e9b-80a7-ee981d53bb93" alt="equation" width="300" />
+  <img src="https://github.com/user-attachments/assets/c96e08fe-bb37-4876-8cdc-05987d9e7e09" alt="equation" width="300" />
 </p>
+
+
 
 ---
 
