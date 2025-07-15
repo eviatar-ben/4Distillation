@@ -4,6 +4,9 @@
 This repository presents **4Distillation**, a novel method for distilling knowledge from 4D reconstruction models into a 2D diffusion model.  
 Our approach enables **joint control over time and viewpoint** in text-to-image generation.
 
+**Status**: 🚧 This project is a work in progress — expect breaking changes and incomplete features.
+
+
 ---
 
 ## Method
