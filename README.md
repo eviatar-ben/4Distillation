@@ -38,7 +38,7 @@ The overview in the figure focuses on the temporal dimension, but the viewpoint 
 
 ---
 
-### Step 2: Time Mapper — Encoding Motion
+### Step 2: Time Mapper — Encoding Motion & View
 
 <p align="center">
   <img src="assets/figures/Figure2.png" alt="Figure 2" />
@@ -81,6 +81,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
