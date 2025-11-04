@@ -1,12 +1,13 @@
 <h1 align="center">4Distillation</h1>
-<h3 align="center">Joint Time and View Control via 4D-to-2D Distillation of Spatiotemporal Implicit Representations</h3>
-
+<h3 align="center">Joint Time and View Control via 4D-to-2D Knowledge Distillation <br>leveraging Spatiotemporal Implicit Representations</h3>
 <p align="center">
   <img src="https://github.com/eviatar-ben/4Distillation/blob/main/assets/figures/overview.png?raw=true" alt="4Distillation Overview" width="80%">
 </p>
 
-This repository presents **4Distillation**, a novel method for distilling knowledge from 4D Reconstruction models into a Generative 2D diffusion model.  
-Our approach enables **joint control over time and viewpoint** in text-to-image generation.
+This repository presents **4Distillation**, a novel method for distilling knowledge from ***4D Reconstruction model*** into a ***Generative 2D diffusion model***.  
+Our approach enables **joint control over time and viewpoint** in a **generalized feedforward manner**.
+
+
 
 **Status**: 🚧 This project is a work in progress — expect breaking changes and incomplete features.
 
@@ -72,6 +73,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
