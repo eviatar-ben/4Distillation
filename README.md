@@ -13,7 +13,7 @@ Our approach enables **joint control over time and viewpoint** in a **generalize
 
 
 
-**Status**: 🚧 This project is a work in progress — expect breaking changes.
+**Status**: 🚧 This project is a work in progress - expect breaking changes.
 
 
 ---
@@ -81,6 +81,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
