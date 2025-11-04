@@ -4,6 +4,10 @@
   <img src="https://github.com/eviatar-ben/4Distillation/blob/main/assets/figures/overview.png?raw=true" alt="4Distillation Overview" width="80%">
 </p>
 
+<p align="center" style="font-style: italic; font-size: 0.9em;">
+Generated 4D scene example using the L4GM reconstruction model
+</p>
+
 This repository presents **4Distillation**, a novel method for distilling knowledge from ***4D Reconstruction model*** into a ***Generative 2D diffusion model***.  
 Our approach enables **joint control over time and viewpoint** in a **generalized feedforward manner**.
 
@@ -73,6 +77,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
