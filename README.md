@@ -54,7 +54,7 @@ Following the NeTI approach, to maintain the editability–fidelity trade-off an
 
 ---
 
-### Step 3: Temporal Knowledge Distillation into the Time & View Mappers via the 2D Diffusion Model
+### Step 3: Temporal and View Knowledge Distillation into the Time & View Mappers via the 2D Diffusion Model
 
 <p align="center">
   <img src="assets/figures/Figure3.png" alt="Figure 3" />
@@ -81,6 +81,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
