@@ -26,10 +26,14 @@ The overview in the figure focuses on the temporal dimension, but the viewpoint 
 
 ---
 
-### Step 1: Sampling Temporal Pairs from Videos
+### Step 1: Sampling Temporal & Viewpoints Pairs from Videos
 
 <p align="center">
   <img src="assets/figures/Figure1.png" alt="Figure 1" />
+</p>
+
+<p align="center">
+  <img src="assets/figures/Figure1B.png" alt="Figure 1B"  />
 </p>
 
 ---
@@ -43,7 +47,7 @@ The overview in the figure focuses on the temporal dimension, but the viewpoint 
 Following the NeTI approach, to maintain the editability–fidelity trade-off and to constrain **v_bypass** from becoming too dominant, the textual condition **v\*** is calculated as:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c96e08fe-bb37-4876-8cdc-05987d9e7e09" alt="equation" width="300" />
+  <img src="assets/figures/Figure2.png" alt="Figure 2" />
 </p>
 
 
@@ -77,6 +81,7 @@ Copyright Notice:
 This project utilizes methods, code, and ideas from various sources, including NeTI, ViewNeTI, IPAdapter, and others.
 All rights to the original methods and code remain with their respective owners.
 Some sources or authors may not be explicitly mentioned here. If any copyright concerns arise, please contact me so I can address them promptly.
+
 
 
 
